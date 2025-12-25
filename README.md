@@ -1,5 +1,5 @@
 # arch-hyprland-config
 
-Apps
+List od packets that I use
 sudo pacman -S
-firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland
+firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland waybar iwctl dhcpcd discord dolphin fail2ban fastfetch git kitty neovim nano sbctl xournalpp 
