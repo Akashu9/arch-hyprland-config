@@ -1,2 +1,12 @@
 List od packages that I use 
-sudo pacman -S firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland waybar iwctl dhcpcd discord dolphin fail2ban fastfetch git kitty neovim nano sbctl xournalpp vscodium ttf-font-awesome ttf-nerd-fonts-symbols swww
+sudo pacman -S --needed firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland hyprpaper waybar iwctl dhcpcd discord dolphin fail2ban ufw fastfetch git kitty neovim nano sbctl xournalpp vscodium ttf-font-awesome ttf-nerd-fonts-symbols btop xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher lib32-mesa lib32-vulkan-radeon vulkan-tools
+ 
+yay -S vscodium
+
+systemctl enable ufw
+sudo ufw limit 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw enable
