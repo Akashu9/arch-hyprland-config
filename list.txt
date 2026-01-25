@@ -9,3 +9,5 @@ sudo ufw limit 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw enable
+
+gamescope -W 3440 -H 1440 -r 120 --force-grab-cursor -f -- %command%
