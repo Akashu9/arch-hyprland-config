@@ -16,4 +16,6 @@ Copy both (dxvk.conf and sekirofpsunlock) extracted files into sekiro steam fold
 
 Put launch command is steam Launch options, for me it's (read source repository):
 gamescope -W 3440 -H 1440 -r 120 --force-grab-cursor -f --expose-wayland -- %command% & ./sekirofpsunlock 30 set-resolution 3440 3440 1440 set-fps 116
+or
+LD_PRELOAD="" %command% & ./sekirofpsunlock 30 set-resolution 3440 3440 1440 set-fps 100
 
