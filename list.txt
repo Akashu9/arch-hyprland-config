@@ -1,5 +1,5 @@
 List od packages that I use 
-sudo pacman -S --needed firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland hyprpaper waybar iwctl dhcpcd discord dolphin fail2ban ufw fastfetch git kitty neovim nano sbctl xournalpp vscodium ttf-font-awesome ttf-nerd-fonts-symbols btop xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher lib32-mesa lib32-vulkan-radeon vulkan-tools
+sudo pacman -S --needed firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland hyprpaper waybar iwctl dhcpcd discord dolphin fail2ban ufw fastfetch git kitty neovim nano sbctl xournalpp vscodium ttf-font-awesome ttf-nerd-fonts-symbols btop xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher lib32-mesa lib32-vulkan-radeon vulkan-tools ark
  
 yay -S vscodium
 
