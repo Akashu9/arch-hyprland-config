@@ -15,3 +15,6 @@ LD_PRELOAD="" MANGOHUD=1 gamescope --adaptive-sync -W 3440 -H 1440 -f -r 120 --f
 
 CS2
 LD_PRELOAD="" gamescope -W 3440 -H 1440 -f -r 120 --force-grab-cursor --expose-wayland -- %command%
+
+no gamescope:
+LD_PRELOAD="" %command%
