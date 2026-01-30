@@ -13,3 +13,4 @@ sudo ufw enable
 gamescope -W 3440 -H 1440 -r 120 --force-grab-cursor -f -- %command%
 gamescope -W 3440 -H 1440 -r 120 --force-grab-cursor -f --expose-wayland -- %command%
 LD_PRELOAD="" gamescope -W 1920 -H 1200 -f -r 60 -e --force-grab-cursor --expose-wayland -- %command%
+LD_PRELOAD="" MANGOHUD=1 gamescope --adaptive-sync -W 3440 -H 1440 -f -r 120 --force-grab-cursor --expose-wayland -- %command%
