@@ -1,6 +1,11 @@
 List od packages that I use 
 sudo pacman -S --needed firefox steam pulseaudio pulseaudio-alsa pulseaudio-bluetooth pavucontrol hyprland hyprpaper waybar iwctl dhcpcd discord dolphin fail2ban ufw fastfetch git kitty neovim nano sbctl xournalpp vscodium ttf-font-awesome ttf-nerd-fonts-symbols btop xdg-desktop-portal-hyprland hyprpolkitagent hyprlauncher lib32-mesa lib32-vulkan-radeon vulkan-tools ark
- 
+
+
+amd drivers
+sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver mesa-vdpau
+
+
 yay -S vscodium
 
 sudo ufw default deny incoming
