@@ -3,7 +3,7 @@ sudo pacman -S --needed firefox steam pulseaudio pulseaudio-alsa pulseaudio-blue
 
 
 amd drivers
-sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver mesa-vdpau
+sudo pacman -Syu mesa lib32-mesa vulkan-radeon lib32-vulkan-radeon libva-mesa-driver
 
 
 yay -S vscodium
