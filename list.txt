@@ -22,6 +22,8 @@ YT video downloader
 sudo pacman -S yt-dlp ffmpeg
 example
 yt-dlp "https://www.youtube.com/watch?v=........"
+MP4
+yt-dlp --merge-output-format mp4 "https://www.youtube.com/watch?v=..."
 
 local AI
 yay -S lmstudio-bin
