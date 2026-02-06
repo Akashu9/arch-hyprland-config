@@ -23,6 +23,9 @@ sudo pacman -S yt-dlp ffmpeg
 example
 yt-dlp "https://www.youtube.com/watch?v=........"
 
+local AI
+yay -S lmstudio-bin
+
 Pacman cleanup:
 sudo pacman -Rns $(pacman -Qdtq)
 
