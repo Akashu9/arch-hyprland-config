@@ -20,6 +20,8 @@ sudo ufw enable
 
 YT video downloader
 sudo pacman -S yt-dlp ffmpeg
+example
+yt-dlp "https://www.youtube.com/watch?v=........"
 
 Pacman cleanup:
 sudo pacman -Rns $(pacman -Qdtq)
